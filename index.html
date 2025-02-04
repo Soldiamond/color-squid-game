@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Color Squid Game</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="colorBox" data-testid="colorBox">
+            <h1>Color Squid Game</h1>
+            <p class="instructions" data-testid="instructions">Guess The Correct Color!</p>
+            <div class="targetColorDisplay" data-testid="targetColorDisplay"></div>
+            <p class="gameStatus" data-testid="gameStatus"></p>
+            <p class="score" data-testid="score">Score: 0</p>
+
+            <div class="colorOption" data-testid="colorOption">
+                <div class="color" data-color="red"></div>
+                <div class="color" data-color="blue"></div>
+                <div class="color" data-color="green"></div>
+                <div class="color" data-color="yellow"></div>
+                <div class="color" data-color="purple"></div>
+                <div class="color" data-color="orange"></div>
+            </div>
+
+            <button class="newGameButton" data-testid="newGameButton" id="newGameButton">New Game</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
